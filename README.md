@@ -1,5 +1,3 @@
-# unix-help
-
 # Get help
 **man {command}** -> manual on a command\
 **whatis {command}** -> short description of a command
