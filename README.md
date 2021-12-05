@@ -1,8 +1,8 @@
-# Get help
+## Get help
 **man {command}** -> manual on a command.\
 **whatis {command}** -> short description of a command.
 
-# List a directory
+## List a directory
 **ls {path}** ->  It's ok to combine attributes, eg ls -laF gets a long listing of all files with types.\
 **ls {path_1} {path_2}** -> List both {path_1} and {path_2}.\
 **ls -l {path}** -> Long listing, with date, size and permisions.\
