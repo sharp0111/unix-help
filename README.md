@@ -13,7 +13,7 @@
 
 ## Change to directory
 **cd {dirname}** -> There must be a space between.\
-**cd ~** -> Go back to home directory, useful if you're lost.\
+**cd \~** -> Go back to home directory, useful if you're lost.\
 **cd ..** -> Go back one directory.
 
 ## Make a new directory
