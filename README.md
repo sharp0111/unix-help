@@ -27,7 +27,7 @@
 **pwd** -> Show where you are as full path. Useful if you're lost or exploring.
 
 ## Copy a file or directory
-**cp {file1} {file2}**
+**cp {file1} {file2}**\
 **cp -r {dir1} {dir2}** -> Recursive, copy directory and all subdirs.\
 **cat {newfile} >> {oldfile}** -> Append newfile to end of oldfile.
 
