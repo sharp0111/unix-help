@@ -67,12 +67,12 @@
 **alias {name}='{command}'** -> Put the command in 'single quotes'. More useful in your .bashrc file.
 
 ## Wildcards and Shortcuts
-**\*** -> Match any string of characters, eg **page\*** gets page1, page10, and page.txt.\
-**?** -> Match any single character, eg **page?** gets page1 and page2, but not page10.\
+**\***    -> Match any string of characters, eg **page\*** gets page1, page10, and page.txt.\
+**?**     -> Match any single character, eg **page?** gets page1 and page2, but not page10.\
 **[...]** -> Match any characters in a range, eg **page[1-3]** gets page1, page2, and page3.\
-**\~** -> Short for your home directory, eg **cd \~** will take you home, and **rm -r \~** will destroy it.\
-**.** -> The current directory.\
-**..** -> One directory up the tree, eg **ls ...**
+**\~**    -> Short for your home directory, eg **cd \~** will take you home, and **rm -r \~** will destroy it.\
+**.**     -> The current directory.\
+**..**    -> One directory up the tree, eg **ls ...**
 
 ## Pipes and Redirection
 (You **pipe** a command to another command, and **redirect** it to a file.)\
