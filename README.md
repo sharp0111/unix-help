@@ -63,6 +63,35 @@
 **wc {file}** -> Count words in file.\
 **wc -l {file}** -> Count the number of lines in a file.
 
+## Make an Alias
+**alias {name}='{command}'** -> Put the command in 'single quotes'. More useful in your .bashrc file.
+
+## Wildcards and Shortcuts
+* -> Match any string of characters, eg page\* gets page1, page10, and page.txt.\
+**?** -> Match any single character, eg **page?** gets page1 and page2, but not page10.\
+**[...]** -> Match any characters in a range, eg **page[1-3]** gets page1, page2, and page3.\
+**\~** -> Short for your home directory, eg **cd \~** will take you home, and **rm -r \~** will destroy it.\
+**.** -> The current directory.\
+**..** -> One directory up the tree, eg **ls ...**
+
+## Pipes and Redirection
+(You **pipe** a command to another command, and **redirect** it to a file.)\
+**{command} > {file}** -> Redirect output to a file, eg **ls > list.txt** writes directory to file.\
+**{command} >> {file}** -> Append output to an existing file, eg **cat update >> archive** adds update to end of archive.\
+**{command} < {file}** -> Get input from a file, eg **sort < file.txt**\
+**{command} < {file1} > {file2}** -> Get input from file1, and write to file2, eg **sort < old.txt > new.txt** sorts old.txt and saves as new.txt.\
+**{command} | {command}** -> Pipe one command to another, eg **ls | more** gets directory and sends it to **more** to show it one page at a time.
+
+## System info
+**date** -> Show date and time.\
+**df** -> Check system disk capacity.\
+**du** -> Check your disk usage and show bytes in each directory.\
+**du -h** -> Check your disk usage in a human readable format\
+**printenv** -> Show all environmental variables\
+**uptime** -> Find out system load.\
+**w** -> Who's online and what are they doing?\
+**top** -> Real time processor and memory usage
+
 
 
 References:
