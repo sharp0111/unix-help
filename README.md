@@ -40,6 +40,29 @@
 **ls {filespec}** -> Good strategy: first list a group to make sure it's what's you think...\
 **rm {filespec}** -> ...then delete it all at once.
 
+## View a text file
+**more {filename}** -> View file one screen at a time.\
+**less {filename}** -> Like more, with extra features.\
+**cat {filename}** -> View file, but it scrolls.\
+**cat {filename} | more** -> View file one screen at a time.
+
+## Edit a text file.
+**gedit {filename}** -> Basic text editor
+
+## Create a text file.
+**cat > {filename}** -> Enter your text (multiple lines with enter are ok) and press control-d to save.\
+**gedit {filename}** -> Create some text and save it.
+
+## Compare two files
+**diff {file1} {file2}** -> Show the differences.\
+**sdiff {file1} {file2}** -> Show files side by side.
+
+## Other text commands
+**grep '{pattern}' {file}** -> Find regular expression in file.\
+**spell {file}** -> Display misspelled words.\
+**wc {file}** -> Count words in file.\
+**wc -l {file}** -> Count the number of lines in a file.
+
 
 
 References:
