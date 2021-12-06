@@ -92,7 +92,10 @@
 **w** -> Who's online and what are they doing?\
 **top** -> Real time processor and memory usage
 
-
+## Other unix commands
+**chmod** -> change file protection\
+**pico** -> Edit a file\
+**sort** -> Sort data
 
 References:
 1. http://www.mathcs.emory.edu/~valerie/courses/fall10/155/resources/unix_cheatsheet.html
